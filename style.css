@@ -8,7 +8,6 @@
 body {
 	width: 100vw;
 	height: 100vh;
-	/* background-color: #eeeeee; */
 	background: #1c1515;
 	overflow-x: hidden;
 }
@@ -45,7 +44,6 @@ h2 {
 #profile h2 span {
 	font-weight: 300;
 	font-size: 18px;
-	/* color: #1C1515; */
 	color: #ccc;
 }
 #profile .cargo{
@@ -54,7 +52,6 @@ h2 {
 h3 {
 	font-weight: 500;
 	font-size: 20px;
-	/* color: #1C1515; */
 	color: #ccc;
 	margin-bottom: 10px;
 }
@@ -82,7 +79,6 @@ h3 {
 	margin-top: -15px;
 	font-size: 16px;
 	font-weight: 500;
-	/* color: #1C1515; */
 	color: #ccc;
 }
 #techs .tech img {
@@ -151,7 +147,6 @@ h3 {
 .show {
 	display: flex;
 }
-
 #about {
 	display: flex;
 	flex-direction: column;
@@ -186,7 +181,6 @@ h3 {
 	border: none;
 	transition: transform 0.5s ease-in-out;
 }
-
 #projects {
 	display: flex;
 	flex-direction: column;
@@ -234,9 +228,9 @@ h3 {
 	align-items: center;
 	flex-direction: column;
 }
-/* .projeto a:hover{
-    /* transform: scale(1.03); 
-} */
+.projeto img:hover{
+    transform: scale(1.02); 
+}
 .projeto img {
 	width: 180px;
 	border-radius: 15px;

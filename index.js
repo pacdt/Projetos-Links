@@ -1,4 +1,11 @@
 let projects = [
+    {
+		nome: "Meu Portifólio",
+		img: "./assets/projetos-img/portfolio.jpg",
+		link: "http://devmateus.tech",
+		tags: ["html", "css", "javascript", "git"],
+		repo: "https://github.com/pacdt/Projetos-Links",
+	},
 	{
 		nome: "Conversor de Moedas",
 		img: "./assets/projetos-img/conversor.jpg",
