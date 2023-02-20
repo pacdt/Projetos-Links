@@ -185,7 +185,6 @@ h2 {
 	width: 70%;
 	height: 100vh;
 	padding: 40px;
-	margin-bottom: 25px;
 }
 #projects main {
 	border: 1px solid #5a0303;
@@ -195,7 +194,15 @@ h2 {
 	padding: 24px;
 }
 #projects main h2 {
+	margin-bottom: 5px;
+}
+#projects main #obs{
 	margin-bottom: 10px;
+    color: #ccc;
+    font-weight: 500;
+    display: flex;
+    justify-content: flex-start;
+    align-items: center;
 }
 #project {
 	display: flex;
@@ -210,13 +217,11 @@ h2 {
 	height: 300px;
 	display: flex;
 	justify-content: center;
-
 	flex-direction: column;
 }
 .projeto a {
 	text-decoration: none;
 	color: crimson;
-	/* transition: transform 0.5s ease-in-out; */
 	display: flex;
 	justify-content: center;
 	align-items: center;
@@ -228,6 +233,7 @@ h2 {
 .projeto img {
 	width: 180px;
 	border-radius: 15px;
+    border: 1px solid #ccc;
 }
 .projeto h4 {
 	margin-top: 8px;
