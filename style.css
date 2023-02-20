@@ -50,7 +50,7 @@ h2 {
 }
 #profile h3 {
 	font-weight: 500;
-	font-size: 18px;
+	font-size: 16px;
 	/* color: #1C1515; */
 	color: #ccc;
 	margin-bottom: 10px;
@@ -230,7 +230,7 @@ h2 {
 		font-size: 16px;
 	}
 	#profile h3 {
-		font-size: 16px;
+		font-size: 14px;
 	}
 	#techs .tech img {
 		width: 30px;
