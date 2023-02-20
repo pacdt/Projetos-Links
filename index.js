@@ -135,32 +135,6 @@ const cardElems = projects.map((card) => {
 
 projectDiv.innerHTML = cardElems.join("");
 
-// const btnToggle = document.querySelectorAll(".btn-toggle");
-// const conteudo = document.querySelectorAll(".conteudo");
-
-// for (let i = 0; i < btnToggle.length; i++) {
-// 	btnToggle[i].addEventListener("click", function () {
-// 		const target = this.getAttribute("data-target");
-// 		const conteudoTarget = document.getElementById(target);
-
-// 		for (let j = 0; j < conteudo.length; j++) {
-// 			if (conteudo[j] !== conteudoTarget) {
-// 				conteudo[j].classList.add("hide");
-//                 conteudo[j].classList.remove("show");
-// 			}
-// 		}
-
-// 		if (conteudoTarget.classList.contains("hide")) {
-// 			conteudoTarget.classList.remove("hide");
-//             conteudoTarget.classList.add("show");
-// 		} else {
-// 			conteudoTarget.classList.add("hide");
-//             conteudoTarget.classList.remove("show");
-
-// 		}
-// 	});
-// }
-
 const btnToggle = document.querySelectorAll(".btn-toggle");
 const conteudo = document.querySelectorAll(".conteudo");
 
