@@ -48,9 +48,12 @@ h2 {
 	/* color: #1C1515; */
 	color: #ccc;
 }
-#profile h3 {
+#profile .cargo{
+    font-size: 16px;
+}
+h3 {
 	font-weight: 500;
-	font-size: 16px;
+	font-size: 20px;
 	/* color: #1C1515; */
 	color: #ccc;
 	margin-bottom: 10px;
@@ -87,6 +90,12 @@ h2 {
 	height: 50px;
 	border-radius: 0;
 	border: none;
+}
+#info-tech{
+    color: #a19393;
+    font-size: 12px;
+    margin-top: -5px;
+    margin-bottom: 10px;
 }
 #about-tech {
 	display: flex;
@@ -256,6 +265,7 @@ h2 {
 	width: 24px;
 	margin-top: 8px;
 }
+
 
 @media screen and (max-width: 1286px) {
 	main {

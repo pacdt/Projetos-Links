@@ -120,7 +120,7 @@ const cardElems = projects.map((card) => {
 	return `
         <div class="projeto">
             <a href="${card.link}" target="_blank">
-            <img src="${card.img}" alt="${card.nome}" />
+            <img src="${card.img}" alt="${card.nome}" title="${card.nome}" />
                 <h4>${card.nome}</h4>
             <div id="tags">
                 ${card.tags.map((tag) => `<span>${tag}</span>`).join("")}
