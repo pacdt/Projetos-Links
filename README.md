@@ -18,7 +18,7 @@ Portifólio simples para mostrar meus projetos ao mundo!.
 <br>
 
 <p align="center">
-  <img alt="conversor" src="./.git/presentation.jpg" width="100%">
+  <img alt="Site Meus Projetos" src=".git/presentation.jpg" width="100%">
 </p>
 
 ## 🚀 Tecnologias
@@ -39,7 +39,7 @@ Acesse o projeto neste Link: <a href="https://devmateus.tech/" target="_blank">M
 
 ## 🔖 Layout
 <p align="center">
-  <img alt="conversor" src="./.git/layout.jpg" width="100%">
+  <img alt="Layout" src=".git/layout.jpg" width="100%">
 </p>
 Você pode visualizar o layout do projeto acima! Saiu do papel!.
 
