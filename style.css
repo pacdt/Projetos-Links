@@ -70,7 +70,8 @@ h2 {
 	align-items: center;
 	transition: transform 0.5s ease-in-out;
 }
-.tech:hover, #social img:hover {
+.tech:hover,
+#social img:hover {
 	cursor: pointer;
 	transform: scale(1.1);
 }
@@ -87,11 +88,67 @@ h2 {
 	border-radius: 0;
 	border: none;
 }
+#about-tech {
+	display: flex;
+	flex-direction: row;
+	width: 100%;
+}
+#about-tech h3 {
+	text-transform: uppercase;
+}
+#about-tech ul {
+	color: #ccc;
+	width: 100%;
+	margin-bottom: 10px;
+}
+#about-tech ul li {
+	list-style: none;
+	margin-bottom: 5px;
+	border: 1px solid #ccc;
+	padding: 5px;
+	text-align: center;
+}
+#about-tech ul li:hover {
+	background-color: #ccc;
+	color: #1c1515;
+}
+#html {
+	flex-direction: column;
+	justify-content: center;
+	align-items: center;
+	width: 100%;
+}
+#css {
+	flex-direction: column;
+	justify-content: center;
+	align-items: center;
+	width: 100%;
+}
+#js {
+	flex-direction: column;
+	justify-content: center;
+	align-items: center;
+	width: 100%;
+}
+#git {
+	flex-direction: column;
+	justify-content: center;
+	align-items: center;
+	width: 100%;
+}
+.hide {
+	display: none;
+}
+.show {
+	display: flex;
+    transition-delay: ease-in-out 1s;
+}
+
 #about {
 	display: flex;
 	flex-direction: column;
-    justify-content: center;
-    align-items: center;
+	justify-content: center;
+	align-items: center;
 }
 #mybox {
 	border: 1px solid #5a0303;
@@ -100,25 +157,25 @@ h2 {
 	padding: 15px;
 	color: #ccc;
 	text-align: justify;
-    margin-bottom: 20px;
+	margin-bottom: 20px;
 }
-#contact{
-    display: flex;
-    flex-direction: column;
-    justify-content: center;
-    align-items: center;
-    width: 100%;
+#contact {
+	display: flex;
+	flex-direction: column;
+	justify-content: center;
+	align-items: center;
+	width: 100%;
 }
-#social{
-    display: flex;
-    flex-direction: row;
-    justify-content: space-around;
-    width: 70%;
-    margin-top: 10px;
+#social {
+	display: flex;
+	flex-direction: row;
+	justify-content: space-around;
+	width: 70%;
+	margin-top: 10px;
 }
-#social img{
-    width: 45px;
-    border: none;
+#social img {
+	width: 45px;
+	border: none;
 	transition: transform 0.5s ease-in-out;
 }
 
@@ -236,7 +293,7 @@ h2 {
 		width: 30px;
 		height: 30px;
 	}
-    #social img{
-        width: 40px;
-    }
+	#social img {
+		width: 40px;
+	}
 }
