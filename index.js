@@ -128,7 +128,7 @@ const cardElems = projects.map((card) => {
             </div>
             </a>
             <a href="${card.repo}" target="_blank">
-            <img id="github" src="./assets/github.png"/>
+            <img id="github" src="./assets/social/github.svg"/>
             </a>
         </div>
     `;
