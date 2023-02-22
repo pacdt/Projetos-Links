@@ -28,6 +28,7 @@ main {
 	justify-content: flex-start;
 	align-items: center;
 	padding: 40px;
+	position: fixed;
 }
 #profile img {
 	width: 200px;
@@ -187,6 +188,9 @@ h3 {
 	width: 70%;
 	height: 100vh;
 	padding: 40px;
+	position: absolute;
+	clear: both;
+	right: 0;
 }
 #projects main {
 	border: 1px solid #5a0303;
@@ -269,6 +273,7 @@ h3 {
 		width: 100%;
 		height: auto;
 		padding: 40px 40px 0px 40px;
+		position: relative;
 	}
 	#techs {
 		width: 70%;
@@ -276,6 +281,7 @@ h3 {
 	#projects {
 		width: 100%;
 		height: auto;
+		position: relative;
 	}
 	#projects main {
 		padding: 40px;
