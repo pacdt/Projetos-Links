@@ -264,7 +264,21 @@ h3 {
 	margin-top: 8px;
 }
 
-
+@media screen and (max-width: 1368px) {
+	#profile{
+		height: 750px;
+	}
+	#profile img{
+        width: 150px;
+    }
+	#techs .tech img{
+		width: 30px;
+		height: 30px;
+	}
+	#social img{
+		width: 35px;
+	}
+}
 @media screen and (max-width: 1286px) {
 	main {
 		flex-direction: column;
