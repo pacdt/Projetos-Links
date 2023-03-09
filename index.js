@@ -118,6 +118,13 @@ let projects = [
 		tags: ["html", "css", "github"],
 		repo: "https://github.com/pacdt/Single-Price-Grid",
 	},
+	{
+		nome: "Testimonial Grid",
+		img: "./assets/projetos-img/testimonials.jpg",
+		link: "https://pacdt.github.io/Testimonials-Grid/",
+		tags: ["html", "css", "github"],
+		repo: "https://github.com/pacdt/Testimonials-Grid",
+	},
 ];
 
 const projectDiv = document.getElementById("project");
