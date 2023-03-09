@@ -120,7 +120,7 @@ let projects = [
 	},
 	{
 		nome: "Testimonial Grid",
-		img: "./assets/projetos-img/testimonials.jpg",
+		img: "./assets/projetos-img/testimonials.png",
 		link: "https://pacdt.github.io/Testimonials-Grid/",
 		tags: ["html", "css", "github"],
 		repo: "https://github.com/pacdt/Testimonials-Grid",
